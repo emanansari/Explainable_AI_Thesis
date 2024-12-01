@@ -1,0 +1,23 @@
+# Exclude build artifacts
+*.o
+*.a
+*.pyc
+*.pyo
+*.so
+__pycache__/
+
+# Exclude temporary files
+*.log
+*.status
+*.txt
+
+# Exclude datasets and models
+*.csv
+*.npy
+*.pth
+
+# Exclude Python build directory
+/Python-3.11.0/build/
+
+# Exclude submodules
+pytorch-grad-cam/
